@@ -1,0 +1,2 @@
+# cordova.plugins.barcodeScanner
+对cordova.plugins.barcodeScanner插件进行了界面美化以及竖屏显示
