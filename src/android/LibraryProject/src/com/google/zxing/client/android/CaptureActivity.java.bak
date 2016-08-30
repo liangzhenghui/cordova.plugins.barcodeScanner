@@ -152,7 +152,7 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
     Window window = getWindow();
     window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     setContentView(fakeR.getId("layout", "capture"));
-    top_cancelBtn = (Button)this.findViewById(fakeR.getId("id", "top_btn_cancel"));
+    top_cancelBtn = (Button)this.findViewById(R.id.top_btn_cancel_scan);
     top_cancelBtn.setOnClickListener(new OnClickListener() {
 		
 		@Override
