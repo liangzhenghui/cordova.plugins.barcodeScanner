@@ -39,21 +39,22 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:orientation="horizontal"
+          android:gravity="center"
           android:background="#2695dc"
-          android:paddingBottom="5dp"
           >
           <Button 
               android:id="@+id/top_btn_cancel_scan"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
+              android:layout_width="100px"
+              android:layout_height="24dp"
               android:background="@null"
               android:drawableLeft="@drawable/back_normal"
               android:gravity="center_vertical"
               />
-          
-          <TextView
+
+        <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
@@ -61,7 +62,12 @@
             android:textColor="@android:color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
-          
+          <Button
+              android:layout_width="100px"
+              android:layout_height="48px"
+              android:background="@null"
+            android:gravity="center_vertical"
+            />
           
       </LinearLayout>
 
